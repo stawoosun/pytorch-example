@@ -7,8 +7,6 @@ import torch.optim as optim
 from torchvision import datasets, transforms
 from torch.optim.lr_scheduler import StepLR
 import json
-import numpy
-
 
 class Net(nn.Module):
     def __init__(self):
